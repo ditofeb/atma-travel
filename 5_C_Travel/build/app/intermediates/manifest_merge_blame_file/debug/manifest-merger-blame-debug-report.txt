@@ -1,0 +1,347 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tubes_5_c_travel"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:2:3-65
+15-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:2:20-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:3:3-78
+16-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:3:20-75
+17    <uses-permission
+17-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:4:3-79
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:4:20-76
+19        android:maxSdkVersion="28" />
+19-->[:camera_android_camerax] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-35
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:5:3-75
+20-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:5:20-72
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:6:3-83
+21-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:6:20-80
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:7:3-77
+22-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:7:20-74
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:8:3-79
+23-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:8:20-76
+24    <!--
+25 Required to query activities that can process text, see:
+26         https://developer.android.com/training/package-visibility and
+27         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+28
+29         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+30    -->
+31    <queries>
+31-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:47:5-52:15
+32        <intent>
+32-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:48:9-51:18
+33            <action android:name="android.intent.action.PROCESS_TEXT" />
+33-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:49:13-72
+33-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:49:21-70
+34
+35            <data android:mimeType="text/plain" />
+35-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:50:13-50
+35-->D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\AndroidManifest.xml:50:19-48
+36        </intent>
+37    </queries>
+38
+39    <uses-feature android:name="android.hardware.camera.any" />
+39-->[:camera_android_camerax] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-64
+39-->[:camera_android_camerax] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:7:19-61
+40
+41    <uses-permission android:name="android.permission.CAMERA" />
+41-->[:camera_android_camerax] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+41-->[:camera_android_camerax] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+42    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+42-->[:camera_android_camerax] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
+42-->[:camera_android_camerax] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
+43
+44    <permission
+44-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+45        android:name="com.example.tubes_5_c_travel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" />
+46-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+47
+48    <uses-permission android:name="com.example.tubes_5_c_travel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+48-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+48-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+49
+50    <application
+51        android:name="android.app.Application"
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+53        android:debuggable="true"
+54        android:extractNativeLibs="true"
+55        android:icon="@mipmap/ic_launcher"
+56        android:label="tubes_5_c_travel"
+57        android:requestLegacyExternalStorage="true" >
+58        <activity
+59            android:name="com.example.tubes_5_c_travel.MainActivity"
+60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+61            android:exported="true"
+62            android:hardwareAccelerated="true"
+63            android:launchMode="singleTop"
+64            android:taskAffinity=""
+65            android:theme="@style/LaunchTheme"
+66            android:windowSoftInputMode="adjustResize" >
+67
+68            <!--
+69                 Specifies an Android theme to apply to this Activity as soon as
+70                 the Android process has started. This theme is visible to the user
+71                 while the Flutter UI initializes. After that, this theme continues
+72                 to determine the Window background behind the Flutter UI.
+73            -->
+74            <meta-data
+75                android:name="io.flutter.embedding.android.NormalTheme"
+76                android:resource="@style/NormalTheme" />
+77
+78            <intent-filter>
+79                <action android:name="android.intent.action.MAIN" />
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+82            </intent-filter>
+83        </activity>
+84        <!--
+85             Don't delete the meta-data below.
+86             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+87        -->
+88        <meta-data
+89            android:name="flutterEmbedding"
+90            android:value="2" />
+91
+92        <provider
+92-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+93            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+93-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+94            android:authorities="com.example.tubes_5_c_travel.flutter.image_provider"
+94-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+95            android:exported="false"
+95-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+96            android:grantUriPermissions="true" >
+96-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+97            <meta-data
+97-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+99                android:resource="@xml/flutter_image_picker_file_paths" />
+99-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+100        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+101        <service
+101-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+102            android:name="com.google.android.gms.metadata.ModuleDependencies"
+102-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+103            android:enabled="false"
+103-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+104            android:exported="false" >
+104-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+105            <intent-filter>
+105-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+106                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+106-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+106-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+107            </intent-filter>
+108
+109            <meta-data
+109-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+110                android:name="photopicker_activity:0:required"
+110-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+111                android:value="" />
+111-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+112        </service>
+113        <service
+113-->[:geolocator_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:56
+114            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+114-->[:geolocator_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-77
+115            android:enabled="true"
+115-->[:geolocator_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-35
+116            android:exported="false"
+116-->[:geolocator_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+117            android:foregroundServiceType="location" />
+117-->[:geolocator_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-53
+118        <service
+118-->[:location] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-15:56
+119            android:name="com.lyokone.location.FlutterLocationService"
+119-->[:location] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+120            android:enabled="true"
+120-->[:location] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-35
+121            android:exported="false"
+121-->[:location] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+122            android:foregroundServiceType="location" />
+122-->[:location] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-53
+123
+124        <provider
+124-->[:printing] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\printing\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+125            android:name="net.nfet.flutter.printing.PrintFileProvider"
+125-->[:printing] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\printing\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-71
+126            android:authorities="com.example.tubes_5_c_travel.flutter.printing"
+126-->[:printing] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\printing\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-68
+127            android:exported="false"
+127-->[:printing] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\printing\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+128            android:grantUriPermissions="true" >
+128-->[:printing] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\printing\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+129            <meta-data
+129-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+130                android:name="android.support.FILE_PROVIDER_PATHS"
+130-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+131                android:resource="@xml/flutter_printing_file_paths" />
+131-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+132        </provider>
+133        <!--
+134           Declares a provider which allows us to store files to share in
+135           '.../caches/share_plus' and grant the receiving action access
+136        -->
+137        <provider
+137-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:20
+138            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+138-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-77
+139            android:authorities="com.example.tubes_5_c_travel.flutter.share_provider"
+139-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-74
+140            android:exported="false"
+140-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+141            android:grantUriPermissions="true" >
+141-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-47
+142            <meta-data
+142-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+143                android:name="android.support.FILE_PROVIDER_PATHS"
+143-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+144                android:resource="@xml/flutter_share_file_paths" />
+144-->[:image_picker_android] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+145        </provider>
+146        <!--
+147           This manifest declared broadcast receiver allows us to use an explicit
+148           Intent when creating a PendingItent to be informed of the user's choice
+149        -->
+150        <receiver
+150-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-32:20
+151            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+151-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-82
+152            android:exported="false" >
+152-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+153            <intent-filter>
+153-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:29
+154                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+154-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-65
+154-->[:share_plus] D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-62
+155            </intent-filter>
+156        </receiver>
+157
+158        <service
+158-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+159            android:name="androidx.camera.core.impl.MetadataHolderService"
+159-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+160            android:enabled="false"
+160-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+161            android:exported="false" >
+161-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+162            <meta-data
+162-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+163                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+163-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+164                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+164-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+165        </service>
+166
+167        <activity
+167-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\bb9d59e21b7884666623ba570b979574\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+168            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+168-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\bb9d59e21b7884666623ba570b979574\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+169            android:exported="false"
+169-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\bb9d59e21b7884666623ba570b979574\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+170            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+170-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\bb9d59e21b7884666623ba570b979574\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+171
+172        <meta-data
+172-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\96004e15647bc525170b7742251f128d\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+173            android:name="com.google.android.gms.version"
+173-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\96004e15647bc525170b7742251f128d\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+174            android:value="@integer/google_play_services_version" />
+174-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\96004e15647bc525170b7742251f128d\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+175
+176        <uses-library
+176-->[androidx.window:window:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e108fe9d597d03770ae82acaebb5b63\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+177            android:name="androidx.window.extensions"
+177-->[androidx.window:window:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e108fe9d597d03770ae82acaebb5b63\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+178            android:required="false" />
+178-->[androidx.window:window:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e108fe9d597d03770ae82acaebb5b63\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+179        <uses-library
+179-->[androidx.window:window:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e108fe9d597d03770ae82acaebb5b63\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+180            android:name="androidx.window.sidecar"
+180-->[androidx.window:window:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e108fe9d597d03770ae82acaebb5b63\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+181            android:required="false" />
+181-->[androidx.window:window:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e108fe9d597d03770ae82acaebb5b63\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+182
+183        <provider
+183-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+184            android:name="androidx.startup.InitializationProvider"
+184-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+185            android:authorities="com.example.tubes_5_c_travel.androidx-startup"
+185-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+186            android:exported="false" >
+186-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+187            <meta-data
+187-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+188-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+189                android:value="androidx.startup" />
+189-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+191-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+192                android:value="androidx.startup" />
+192-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+193        </provider>
+194
+195        <receiver
+195-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+196            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+197            android:directBootAware="false"
+197-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+198            android:enabled="true"
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+199            android:exported="true"
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+200            android:permission="android.permission.DUMP" >
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+201            <intent-filter>
+201-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+202                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+202-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+202-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+203            </intent-filter>
+204            <intent-filter>
+204-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+205                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+206            </intent-filter>
+207            <intent-filter>
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+208                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+209            </intent-filter>
+210            <intent-filter>
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+211                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+212            </intent-filter>
+213        </receiver>
+214    </application>
+215
+216</manifest>

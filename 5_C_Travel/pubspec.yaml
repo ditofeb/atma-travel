@@ -1,0 +1,57 @@
+name: tubes_5_c_travel
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  camera: ^0.11.0+2
+  carousel_slider: ^5.0.0
+  dotted_line: ^3.2.3
+  fl_chart: ^0.69.2
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.2
+  flutter_riverpod: ^2.6.1
+  flutter_svg: ^2.0.13
+  geolocator: ^13.0.2
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  image_gallery_saver_plus: ^3.0.5
+  image_picker: ^1.1.2
+  intl: ^0.20.1
+  location: ^7.0.1
+  path_provider: ^2.1.5
+  pdf: ^3.11.1
+  permission_handler: ^11.3.1
+  persistent_bottom_nav_bar: any
+  printing: ^5.13.4
+  qr_flutter: ^4.1.0
+  quickalert: ^1.1.0
+  screenshot: ^3.0.0
+  share_plus: ^10.1.2
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#83B4FF"
+  image: assets/images/logo_white.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/profile_pic.jpeg
+    - assets/images/
+    - assets/images/carousel1.jpg
+    - assets/images/carousel2.jpg
+    - assets/images/carousel3.jpg
+    - assets/images/topPopuler1.jpg
+    - assets/images/topPopuler2.jpg
+    - assets/images/recomended1.jpg
+    - assets/images/recomended2.jpg

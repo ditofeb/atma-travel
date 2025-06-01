@@ -1,0 +1,1 @@
+ D:\\Coding\\Hasil\ Coding\\vscode\\1\\5_C_Travel\\5_C_Travel\\.dart_tool\\flutter_build\\af89bb77adfa9c8fd821b06fc12f0b80\\native_assets.yaml: 

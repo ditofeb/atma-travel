@@ -1,0 +1,59 @@
+com.example.tubes_5_c_travel.app-jetified-savedstate-1.2.1-0 C:\Users\ASUS\.gradle\caches\transforms-3\010887bb3359843376c02ecf4bf2ef43\transformed\jetified-savedstate-1.2.1\res
+com.example.tubes_5_c_travel.app-core-runtime-2.2.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\08235bf0a8760a790ea7b8b4eab82236\transformed\core-runtime-2.2.0\res
+com.example.tubes_5_c_travel.app-preference-1.2.1-2 C:\Users\ASUS\.gradle\caches\transforms-3\10d0d8c1f4c5c1b7a3b300d05f7ebb5e\transformed\preference-1.2.1\res
+com.example.tubes_5_c_travel.app-jetified-datastore-1.0.0-3 C:\Users\ASUS\.gradle\caches\transforms-3\1471cc351ba4f9046368b464c95dce27\transformed\jetified-datastore-1.0.0\res
+com.example.tubes_5_c_travel.app-jetified-profileinstaller-1.3.1-4 C:\Users\ASUS\.gradle\caches\transforms-3\1e1e8719823df11c58e964840aa823f6\transformed\jetified-profileinstaller-1.3.1\res
+com.example.tubes_5_c_travel.app-jetified-activity-1.9.2-5 C:\Users\ASUS\.gradle\caches\transforms-3\2d91bc83866874eb6317ae5ae27d2dc9\transformed\jetified-activity-1.9.2\res
+com.example.tubes_5_c_travel.app-recyclerview-1.0.0-6 C:\Users\ASUS\.gradle\caches\transforms-3\3849d2a4662c79004aa48857ab62a419\transformed\recyclerview-1.0.0\res
+com.example.tubes_5_c_travel.app-appcompat-1.1.0-7 C:\Users\ASUS\.gradle\caches\transforms-3\3a04377ab98aaf9189ccddcb951bae89\transformed\appcompat-1.1.0\res
+com.example.tubes_5_c_travel.app-jetified-window-1.2.0-8 C:\Users\ASUS\.gradle\caches\transforms-3\3e108fe9d597d03770ae82acaebb5b63\transformed\jetified-window-1.2.0\res
+com.example.tubes_5_c_travel.app-jetified-lifecycle-livedata-core-ktx-2.7.0-9 C:\Users\ASUS\.gradle\caches\transforms-3\4befdc7f9fed1e5c6647eae72672d219\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.tubes_5_c_travel.app-lifecycle-viewmodel-2.7.0-10 C:\Users\ASUS\.gradle\caches\transforms-3\52dfd6d7c21c1e36dbdf0d304093d642\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.tubes_5_c_travel.app-jetified-startup-runtime-1.1.1-11 C:\Users\ASUS\.gradle\caches\transforms-3\53f114d110e356c36b5f50ab357f361f\transformed\jetified-startup-runtime-1.1.1\res
+com.example.tubes_5_c_travel.app-jetified-core-ktx-1.13.1-12 C:\Users\ASUS\.gradle\caches\transforms-3\58accd456bc756075136cc5a7dae18d3\transformed\jetified-core-ktx-1.13.1\res
+com.example.tubes_5_c_travel.app-jetified-lifecycle-process-2.7.0-13 C:\Users\ASUS\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.tubes_5_c_travel.app-slidingpanelayout-1.2.0-14 C:\Users\ASUS\.gradle\caches\transforms-3\5de8146ab39b4585c501d381da5b31ee\transformed\slidingpanelayout-1.2.0\res
+com.example.tubes_5_c_travel.app-transition-1.4.1-15 C:\Users\ASUS\.gradle\caches\transforms-3\662b6f3f4294d98a11aa8ce24a3a2b88\transformed\transition-1.4.1\res
+com.example.tubes_5_c_travel.app-jetified-annotation-experimental-1.4.0-16 C:\Users\ASUS\.gradle\caches\transforms-3\6707c561045b071954f9f1d8398a2530\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.tubes_5_c_travel.app-jetified-fragment-ktx-1.7.1-17 C:\Users\ASUS\.gradle\caches\transforms-3\6bbbed36202d97cc5c56f59110c58ff8\transformed\jetified-fragment-ktx-1.7.1\res
+com.example.tubes_5_c_travel.app-jetified-core-1.0.0-18 C:\Users\ASUS\.gradle\caches\transforms-3\6dde453803d512b3f23cc981e264e9e0\transformed\jetified-core-1.0.0\res
+com.example.tubes_5_c_travel.app-jetified-datastore-preferences-1.0.0-19 C:\Users\ASUS\.gradle\caches\transforms-3\7374f32381d954e34124ee720ff47df8\transformed\jetified-datastore-preferences-1.0.0\res
+com.example.tubes_5_c_travel.app-jetified-lifecycle-viewmodel-ktx-2.7.0-20 C:\Users\ASUS\.gradle\caches\transforms-3\7c191cc5b1357899ac0fb27789b31527\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.example.tubes_5_c_travel.app-jetified-camera-video-1.3.4-21 C:\Users\ASUS\.gradle\caches\transforms-3\8242a7d9110106e877e74467d92315fc\transformed\jetified-camera-video-1.3.4\res
+com.example.tubes_5_c_travel.app-coordinatorlayout-1.0.0-22 C:\Users\ASUS\.gradle\caches\transforms-3\84fd36235785b204f68ac36381954b4b\transformed\coordinatorlayout-1.0.0\res
+com.example.tubes_5_c_travel.app-jetified-camera-lifecycle-1.3.4-23 C:\Users\ASUS\.gradle\caches\transforms-3\8f73e801bd9ef7a298fb70a2365a5472\transformed\jetified-camera-lifecycle-1.3.4\res
+com.example.tubes_5_c_travel.app-jetified-savedstate-ktx-1.2.1-24 C:\Users\ASUS\.gradle\caches\transforms-3\9052453186e3003b95f282d86591f3f1\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.tubes_5_c_travel.app-jetified-play-services-basement-18.3.0-25 C:\Users\ASUS\.gradle\caches\transforms-3\96004e15647bc525170b7742251f128d\transformed\jetified-play-services-basement-18.3.0\res
+com.example.tubes_5_c_travel.app-lifecycle-livedata-2.7.0-26 C:\Users\ASUS\.gradle\caches\transforms-3\9c28b5c7a2d23237247570dbf8382af1\transformed\lifecycle-livedata-2.7.0\res
+com.example.tubes_5_c_travel.app-lifecycle-livedata-core-2.7.0-27 C:\Users\ASUS\.gradle\caches\transforms-3\9ec76326f098fb11057ae8a1fda52a48\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.tubes_5_c_travel.app-fragment-1.7.1-28 C:\Users\ASUS\.gradle\caches\transforms-3\a49cd171355a6a39687e69f028c8bcbc\transformed\fragment-1.7.1\res
+com.example.tubes_5_c_travel.app-jetified-activity-ktx-1.9.2-29 C:\Users\ASUS\.gradle\caches\transforms-3\adb5d29db524d89c34276ad180c85019\transformed\jetified-activity-ktx-1.9.2\res
+com.example.tubes_5_c_travel.app-jetified-appcompat-resources-1.1.0-30 C:\Users\ASUS\.gradle\caches\transforms-3\ba1149b554bea47224344eb46b66b293\transformed\jetified-appcompat-resources-1.1.0\res
+com.example.tubes_5_c_travel.app-jetified-play-services-base-18.3.0-31 C:\Users\ASUS\.gradle\caches\transforms-3\bb9d59e21b7884666623ba570b979574\transformed\jetified-play-services-base-18.3.0\res
+com.example.tubes_5_c_travel.app-jetified-window-java-1.2.0-32 C:\Users\ASUS\.gradle\caches\transforms-3\bf78d940cc78ca45c77421e3af64376e\transformed\jetified-window-java-1.2.0\res
+com.example.tubes_5_c_travel.app-core-1.13.1-33 C:\Users\ASUS\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\res
+com.example.tubes_5_c_travel.app-lifecycle-runtime-2.7.0-34 C:\Users\ASUS\.gradle\caches\transforms-3\c8996eb6ce8efabee1883fe1486006c9\transformed\lifecycle-runtime-2.7.0\res
+com.example.tubes_5_c_travel.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-35 C:\Users\ASUS\.gradle\caches\transforms-3\ca2eed4266fd24517e583e6618aa3924\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.tubes_5_c_travel.app-jetified-camera-camera2-1.3.4-36 C:\Users\ASUS\.gradle\caches\transforms-3\cef670aba70a9bbd0213de4d34065298\transformed\jetified-camera-camera2-1.3.4\res
+com.example.tubes_5_c_travel.app-jetified-camera-core-1.3.4-37 C:\Users\ASUS\.gradle\caches\transforms-3\e030102dcf9de73afea0c67d24aede17\transformed\jetified-camera-core-1.3.4\res
+com.example.tubes_5_c_travel.app-jetified-lifecycle-runtime-ktx-2.7.0-38 C:\Users\ASUS\.gradle\caches\transforms-3\fc510e06b3828af7121634ed81a0fa63\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.example.tubes_5_c_travel.app-jetified-tracing-1.2.0-39 C:\Users\ASUS\.gradle\caches\transforms-3\fee79d0d8ef3af5dbc14ef6d22d028cf\transformed\jetified-tracing-1.2.0\res
+com.example.tubes_5_c_travel.app-debug-40 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\debug\res
+com.example.tubes_5_c_travel.app-main-41 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\android\app\src\main\res
+com.example.tubes_5_c_travel.app-pngs-42 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\app\generated\res\pngs\debug
+com.example.tubes_5_c_travel.app-resValues-43 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\app\generated\res\resValues\debug
+com.example.tubes_5_c_travel.app-packageDebugResources-44 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.tubes_5_c_travel.app-packageDebugResources-45 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.tubes_5_c_travel.app-merged_res-46 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\app\intermediates\merged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-47 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\camera_android_camerax\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-48 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\flutter_native_splash\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-49 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-50 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\geolocator_android\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-51 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_gallery_saver_plus\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-52 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\image_picker_android\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-53 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\location\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-54 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\path_provider_android\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-55 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\permission_handler_android\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-56 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\printing\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-57 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\share_plus\intermediates\packaged_res\debug
+com.example.tubes_5_c_travel.app-packaged_res-58 D:\Coding\Hasil Coding\vscode\1\5_C_Travel\5_C_Travel\build\shared_preferences_android\intermediates\packaged_res\debug
